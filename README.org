@@ -6,3 +6,5 @@ CSS for the site has been shamelessly grafted from https://perfectmotherfuckingw
 * Creating new pages
 Pages should be created as org files in the =content= directory.  Once pushed to the master branch GitHub will then convert  the files to ~html~ files and publish them to the gh-pages branch.
 
+* Adjusting Configuration
+the =build-site.el= file contains the elisp used to configure the site generation process. Settings can be changed there to adjust what is exported from the org file and what isn't e.g. Tables of Contents.
