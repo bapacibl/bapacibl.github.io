@@ -1,0 +1,8 @@
+* Personal Static Site
+This repo is for [[https://bapacibl.github.io/][my github pages site]] accessible at [[http://ben.apacible.net][ben.apacible.net]]
+
+CSS for the site has been shamelessly grafted from https://perfectmotherfuckingwebsite.com/
+
+* Creating new pages
+Pages should be created as org files in the =content= directory.  Once pushed to the master branch GitHub will then convert  the files to ~html~ files and publish them to the gh-pages branch.
+
